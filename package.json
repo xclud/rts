@@ -4,13 +4,11 @@
   "files": [
     "rts_bg.wasm",
     "rts.js",
-    "rts_bg.js",
     "rts.d.ts"
   ],
   "module": "rts.js",
   "types": "rts.d.ts",
   "sideEffects": [
-    "./rts.js",
     "./snippets/*"
   ]
 }
